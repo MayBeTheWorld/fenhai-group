@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/header.vue';
 </script>
 
 <template>
+  <Header/>
+  <p>123123</p>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
