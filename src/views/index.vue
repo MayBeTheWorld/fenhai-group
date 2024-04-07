@@ -18,7 +18,7 @@
         <div class="flex items-center mr-5 h-10 w-20">
           <img src="../assets/new.png" alt="">
         </div class="text-center">售后服务</div>
-      <div class="m-5"><router-link to="/" class="text-white no-underline shadow-lg hover:text-teal-500">更多 ></router-link></div>
+      <div class="m-5"><router-link to="/afterSales" class="text-white no-underline shadow-lg hover:text-teal-500">更多 ></router-link></div>
     </div>
     <div class="">
       <img class="w-full h-1/6 object-cover" src="../assets/image4.jpg" alt="">

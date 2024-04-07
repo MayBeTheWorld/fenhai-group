@@ -7,12 +7,12 @@
     </div>
     <nav class="m-0 p-0 w-1/2 font-normal" >
       <ul class="flex pl-10 flex-row justify-around">
-        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">首页</router-link></li>
-        <li class="list-none mx-4"><router-link to="/aboutUs" class="text-white no-underline hover:text-teal-500" href="#features">关于我们</router-link></li>
-        <li class="list-none mx-4"><router-link to="/produce" class="text-white no-underline hover:text-teal-500" href="#features">产品中心</router-link></li>
-        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">售后服务</router-link></li>
-        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">新闻动态</router-link></li>
-        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">联系我们</router-link></li>
+        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" >首页</router-link></li>
+        <li class="list-none mx-4"><router-link to="/aboutUs" class="text-white no-underline hover:text-teal-500" >关于我们</router-link></li>
+        <li class="list-none mx-4"><router-link to="/produce" class="text-white no-underline hover:text-teal-500" >产品中心</router-link></li>
+        <li class="list-none mx-4"><router-link to="/afterSales" class="text-white no-underline hover:text-teal-500" >售后服务</router-link></li>
+        <li class="list-none mx-4"><router-link to="/news" class="text-white no-underline hover:text-teal-500" >新闻动态</router-link></li>
+        <li class="list-none mx-4"><router-link to="/contact" class="text-white no-underline hover:text-teal-500" >联系我们</router-link></li>
       </ul>
     </nav>
   </header>
