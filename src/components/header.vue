@@ -1,66 +1,26 @@
 <template>
-  <header class="fixed top-0 min-h-20 py-0 px-5 flex justify-around items-center">
-    <div id="logo">
-      <img id="header-img"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-        alt="original trombones logo" />
+  <header class="fixed top-0 w-full min-h-16 py-0 px-5 flex justify-between items-center header">
+    <div class="w-16">
+      <img class="min-w-30 flex justify-center items-center text-center ml-40"
+        src="../assets/image.png"
+        alt="logo" />
     </div>
-    <nav id="nav-bar">
-      <ul>
-        <li><a class="nav-link" href="#features">产品特点</a></li>
-        <li><a class="nav-link" href="#how-it-works">如何使用</a></li>
-        <li><a class="nav-link" href="#relation">如何联系</a></li>
+    <nav class="m-0 p-0 w-1/2 font-normal" >
+      <ul class="flex pl-10 flex-row justify-around">
+        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">首页</router-link></li>
+        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">关于我们</router-link></li>
+        <li class="list-none mx-4"><router-link to="/produce" class="text-white no-underline hover:text-teal-500" href="#features">产品中心</router-link></li>
+        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">售后服务</router-link></li>
+        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">新闻动态</router-link></li>
+        <li class="list-none mx-4"><router-link to="/" class="text-white no-underline hover:text-teal-500" href="#features">联系我们</router-link></li>
       </ul>
     </nav>
   </header>
 </template>
 
 <style scoped>
-li {
-  list-style: none;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-#header {
-  position: fixed;
-  top: 0;
-  min-height: 75px;
-  padding: 0px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #eee;
-}
-
-#logo {
-  width: 60vw;
-}
-
-#logo>img {
-  max-width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 20px;
-}
-
-nav {
-  font-weight: 400;
-  margin: 0px;
-  padding: 0px;
-}
-
-nav>ul {
-  display: block;
-  width: 35vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.header {
+  background-color: #242424;
 }
 </style>
 
