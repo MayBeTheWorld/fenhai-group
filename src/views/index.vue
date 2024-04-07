@@ -1,26 +1,28 @@
 <template>
-  <n-carousel autoplay class="flex h-96">
-    <div
-      class=""
-      v-for="slide in images"
-      :key="slide.id">
-      <img
-        class="w-full h-96 object-cover"
-        :src="slide.image"
-        :alt="slide.alt"
-      >
-      </img>
+  <div class="m-5">
+    <n-carousel autoplay class="flex h-96">
+      <div
+        class=""
+        v-for="slide in images"
+        :key="slide.id">
+        <img
+          class="w-full h-96 object-cover"
+          :src="slide.image"
+          :alt="slide.alt"
+        >
+        </img>
+      </div>
+    </n-carousel>
+    <div class="flex justify-between items-center">
+      <div class="flex m-5 items-center">
+        <div class="flex items-center mr-5 h-10 w-20">
+          <img src="../assets/new.png" alt="">
+        </div class="text-center">售后服务</div>
+      <div class="m-5"><router-link to="/" class="text-white no-underline shadow-lg hover:text-teal-500">更多 ></router-link></div>
     </div>
-  </n-carousel>
-  <div class="flex justify-between items-center">
-    <div class="flex m-5 items-center">
-      <div class="flex items-center mr-5 h-10 w-20">
-        <img src="../assets/new.png" alt="">
-      </div class="text-center">售后服务</div>
-    <div class="m-5"><router-link to="/" class="text-white no-underline shadow-lg hover:text-teal-500">更多 ></router-link></div>
-  </div>
-  <div class="">
-    <img class="w-full h-1/6 object-cover" src="../assets/image4.jpg" alt="">
+    <div class="">
+      <img class="w-full h-1/6 object-cover" src="../assets/image4.jpg" alt="">
+    </div>
   </div>
 </template>
 
