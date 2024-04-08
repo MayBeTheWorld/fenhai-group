@@ -30,8 +30,8 @@
 import { NCarousel } from 'naive-ui'
 import { Slide } from '../types/types';
 import { reactive } from 'vue';
-import image1 from '../assets/image2.png'
-import image2 from '../assets/image3.jpg'
+import image1 from '../assets/image3.jpg'
+import image2 from '../assets/new2.jpg'
 
 const images: Slide[] = reactive([
   { id: 1, image: image1, alt:"image"},

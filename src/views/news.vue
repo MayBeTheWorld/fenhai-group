@@ -1,6 +1,7 @@
 <template>
   <div class="container mx-auto p-4">
     <div class="mb-8">
+      <h1 class="text-3xl font-bold mb-4">新闻动态</h1>
       <!-- 文字部分 -->
       <div class="text-lg text-slate-200 mb-4">
         <p class="mb-2">焚海集团与岳西县人民政府合作签约</p>
